@@ -1,0 +1,188 @@
+/* General body and navbar styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #879496;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    padding: 0;
+    margin: 0;/* General body and navbar styling */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #b5c5e1;
+        padding: 10px 0;
+    }
+    
+    .navbar {
+        list-style: none;
+        display: flex;
+        justify-content: left;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar li {
+        color: blueviolet;
+        font-weight: bold;
+    }
+    
+    /* Main container for layout */
+    .container {
+        display: flex;
+        margin: 20px;
+        gap: 20px;
+    }
+    
+    /* Left Section Styling */
+    .left-section {
+        flex: 1; /* Make it take 1 portion of the container */
+        text-align: left;
+        background-color: #51abcb;
+    }
+    
+    .photo {
+        margin-bottom: 10px;
+        width: 300%;
+        max-width: 350px; /* Restrict max image width */
+    }
+    
+    
+    .hello1 {
+        text-align: left;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    
+    /* Middle Section Styling */
+    .middle-section {
+        flex: 2; /* Take more space than the left section */
+        background-color: #b4c0c2;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    .middle-section h1 {
+        font-size: 22px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .middle-section p {
+        line-height: 1.6;
+        color: #555;
+        margin-bottom: 20px;
+    
+    }
+    
+    .middle-section img.large-photo {
+        width: 100%;
+        max-width: 500px; /* Reduced size */
+        height: auto;
+        margin:50px auto; /* Centers the image horizontally */
+        display: block; /* Makes the image a block element for centering */
+        border-radius: 10px;
+    }
+    
+    
+    .middle-section .continue-button {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .middle-section .continue-button:hover {
+        background-color: #0056b3;
+    }
+}
+
+.navbar li {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+/* Main container for layout */
+.container {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Left Section Styling */
+.left-section {
+    flex: 1; /* Make it take 1 portion of the container */
+    text-align: center;
+    background-color: #b4c0c2;
+}
+
+.photo {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 470px; /* Restrict max image width */
+    border-radius: 0px;
+}
+
+.hello1 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Middle Section Styling */
+.middle-section {
+    flex: 2; /* Take more space than the left section */
+    background-color: #b4c0c2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.middle-section h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.middle-section p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.middle-section img.large-photo {
+    width: 100%;
+    max-width: 800px; /* Reduced size */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 0px;
+}
+.middle-section .continue-button {
+    background-color: #b4c0c2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.middle-section .continue-button:hover {
+    background-color: #b4c0c2;
+}
